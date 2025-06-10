@@ -4,4 +4,8 @@ Where are you? from local repo
 committing from VCode IDE
 what is the issue
 zxcvz zxcvzxc vzxcv
+<<<<<<< HEAD
 change done from Harish yadav
+=======
+checking done
+>>>>>>> 5eda6f5 (Change made)
