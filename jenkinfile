@@ -1,0 +1,21 @@
+pipeline{
+    agent any
+    stages{
+        stage('Stage_1'){
+            steps{
+                echo 'Stage_1'
+            }
+        }
+         stage('Stage_2'){
+            steps{
+                echo 'Hello working on the staging steps'
+            }
+        }
+        stage('Stage_3'){
+            steps{
+                bat 'mkdir harish'
+            }
+        }
+        
+    }
+}
